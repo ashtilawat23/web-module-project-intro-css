@@ -59,7 +59,7 @@ body{
 }
 
 nav {
-display: flex;
+display: inline-block;
 justify-content: space-around;
 padding-bottom: 5%;
 }
@@ -99,7 +99,7 @@ padding-bottom: 5%;
 }
 
 header{
-	display: flex;
+	display: inline-block;
 	padding-bottom: 4%;
 }
 
