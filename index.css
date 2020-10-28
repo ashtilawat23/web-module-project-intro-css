@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styling */
+
+html {
+font-size: 62.5%;    
+}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	padding: 5% 15% 5% 15%;
+}
+
+nav {
+display: flex;
+justify-content: space-around;
+padding-bottom: 5%;
+}
+
+.plan{
+	background-color: #FF764E;
+	text-align: center;
+	font-size: 2.6rem;
+	border-radius: 20px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	word-wrap: break-word;
+	margin: 1%;
+	padding: 2%;
+}
+
+
+.learn{
+	background-color: #5ED3EB;
+	text-align: center;
+	font-size: 2.6rem;
+	border-radius: 20px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	margin: 1%;
+}
+
+
+.get {
+	background-color: #FFCD69;
+	text-align: center;
+	font-size: 2.6rem;
+	border-radius: 20px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	margin: 1%;
+}
+
+header{
+	display: flex;
+	padding-bottom: 4%;
+}
+
+h1{
+	font-size: 6rem;
+	font-family: 'Chelsea Market', cursive;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	text-align: center;
+}
+
+.introA{
+	padding-left: 6%;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.introB{
+	padding-left: 6%;
+	text-align: center;
+}
+
+.mtn{
+	border-radius: 50%;
+	height: 25rem;
+}
+
+
+p{
+  font-size: 2.6rem;  
+}
+
+
+.about{
+    background-color: #DDB9A3;
+    color: white;
+	font-size: 2.6rem;
+	text-align: center;
+	padding: 2%;
+}
+
+
+.campfireImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.campfire{
+	padding-top: 4%;
+}
+
+.campfireP{
+	font-size: 1.5rem;
+	padding: 0% 35% 5% 35%;
+	text-align: center;
+}
+
+
+.rvP{
+	font-size: 1.5rem;
+	padding: 0% 35% 5% 35%;
+	text-align: center;
+}
+
+.rvImg{
+  	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.footerImg{
+    width: 100%;
+    height:25rem;
+    object-fit:cover;
+    object-position: 100% 15%;
+}
+
+footer{
+	background-color:#F9E7DC;
+}
+
+.bolded{
+    font-weight:900;
+}
